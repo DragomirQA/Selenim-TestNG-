@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.repository.LoginPageTests"/>
+      	<methods>
+      		<include name="loginIncorrectUsername"/>
+      		<include name="loginSuccessful"/>
+      		<exclude name="loginUnregisteredUser"></exclude>
+      		<exclude name="loginIncorrectPassword"></exclude>
+      	</methods>
+      	<class name="tests.repository.ProductsPageTests"/>
+      	<methods>
+      		<include name="addProduct"/>
+      		<exclude name="editProductPriceBy100"></exclude>
+      		<exclude name="loginSuccessful"></exclude>
+      	</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

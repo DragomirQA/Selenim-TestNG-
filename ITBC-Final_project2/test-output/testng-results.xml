@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47917" started-at="2020-05-16T23:35:51 CEST" finished-at="2020-05-16T23:36:39 CEST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47917" started-at="2020-05-16T23:35:51 CEST" finished-at="2020-05-16T23:36:39 CEST">
+      <class name="tests.repository.ProductsPageTests">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.repository.ProductsPageTests@551aa95a]" name="beforeClass" is-config="true" duration-ms="1885" started-at="2020-05-16T23:35:58 CEST" finished-at="2020-05-16T23:36:00 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="addProduct()[pri:1, instance:tests.repository.ProductsPageTests@551aa95a]" name="addProduct" duration-ms="38455" started-at="2020-05-16T23:36:00 CEST" finished-at="2020-05-16T23:36:39 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+      </class> <!-- tests.repository.ProductsPageTests -->
+      <class name="tests.repository.LoginPageTests">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.repository.LoginPageTests@578486a3]" name="beforeClass" is-config="true" duration-ms="12996" started-at="2020-05-16T23:35:38 CEST" finished-at="2020-05-16T23:35:51 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginIncorrectUsername()[pri:1, instance:tests.repository.LoginPageTests@578486a3]" name="loginIncorrectUsername" duration-ms="847" started-at="2020-05-16T23:35:51 CEST" finished-at="2020-05-16T23:35:52 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIncorrectUsername -->
+        <test-method status="PASS" signature="loginSuccessful()[pri:3, instance:tests.repository.LoginPageTests@578486a3]" name="loginSuccessful" duration-ms="6701" started-at="2020-05-16T23:35:52 CEST" finished-at="2020-05-16T23:35:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessful -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.repository.LoginPageTests@578486a3]" name="afterClass" is-config="true" duration-ms="648" started-at="2020-05-16T23:36:39 CEST" finished-at="2020-05-16T23:36:39 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.repository.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
